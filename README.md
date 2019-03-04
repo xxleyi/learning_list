@@ -8,4 +8,5 @@
 - [CS61A](https://github.com/xxleyi/learning_list/projects/1)
 - [数据结构（C++）](https://github.com/xxleyi/learning_list/projects/2)
 - [JS OR FP](https://github.com/xxleyi/learning_list/projects/3)
+- [并发编程](https://github.com/xxleyi/learning_list/projects/5)
 - [零碎](https://github.com/xxleyi/learning_list/projects/4)

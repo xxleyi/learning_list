@@ -6,6 +6,7 @@
 
 ### 目前已有项目：
 - [Teach Myself Computer Science](https://github.com/xxleyi/learning_list/projects/7)
+- [CS162](https://github.com/xxleyi/learning_list/projects/9)
 - [CS61C](https://github.com/xxleyi/learning_list/projects/8)
 - [CS61A](https://github.com/xxleyi/learning_list/projects/1)
 - [数据结构（C++）](https://github.com/xxleyi/learning_list/projects/2)

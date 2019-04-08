@@ -1,6 +1,6 @@
 ## learning list
 
-以 learning list 的形式记录一些必须图文并茂的学习笔记。
+以 issues list 的形式记录一些学习笔记。
 
 利用内置 kanban 进行项目管理。
 

@@ -5,6 +5,7 @@
 利用内置 kanban 进行项目管理。
 
 ### 目前已有项目：
+- [Computer Networking](https://github.com/xxleyi/learning_list/projects/10)
 - [Teach Myself Computer Science](https://github.com/xxleyi/learning_list/projects/7)
 - [CS162](https://github.com/xxleyi/learning_list/projects/9)
 - [CS61C](https://github.com/xxleyi/learning_list/projects/8)

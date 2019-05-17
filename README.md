@@ -1,8 +1,8 @@
 ## learning list
 
-以 issues list 的形式记录一些学习笔记。
+以 issue blog 的形式记录、整理和积累学习笔记。
 
-利用内置 kanban 进行项目管理。
+利用 Github 内置 kanban 进行项目管理。
 
 ### 目前已有项目：
 - [Computer Networking](https://github.com/xxleyi/learning_list/projects/10)

@@ -12,6 +12,7 @@
 - [CS162(OS)](https://github.com/xxleyi/learning_list/projects/9)
 - [数据结构（邓俊辉 C++）](https://github.com/xxleyi/learning_list/projects/2)
 - [Python 相关（包含一些平日的工作积累）](https://github.com/xxleyi/learning_list/projects/11)
+- [CS186(Databases)](https://github.com/xxleyi/learning_list/projects/12)
 - [JS OR FP](https://github.com/xxleyi/learning_list/projects/3)
 - [并发编程](https://github.com/xxleyi/learning_list/projects/5)
 - [零碎（一些不好归的东西）](https://github.com/xxleyi/learning_list/projects/4)

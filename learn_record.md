@@ -7,5 +7,9 @@ issue 的更新无法正常反应在 Github 的提交中，不利于观察自己
 
 补全更新传输层 ICMP 部分的笔记，主要是 ping、traceroute 如何使用 ICMP 来构建各自的服务。
 
+[CS186(Databases)](https://github.com/xxleyi/learning_list/projects/12)
+
+新建「数据库」学习项目，正儿八经的学习、积累数据库基础理论
+
 ---
 

@@ -16,4 +16,10 @@ issue 的更新无法正常反应在 Github 的提交中，不利于观察自己
 数据库第一讲：数据成为一切的核心。
 
 ---
+2019-05-24 | Friday | No.144 | Week.20
 
+[CS186 2. Sorting and Hashing · Issue #101 · xxleyi/learning_list](https://github.com/xxleyi/learning_list/issues/101)
+
+新增「数据库」学习项目笔记，针对大数据的排序和哈希，只是蜻蜓点水，接触一些真实的场景和概念，后续需要仔细拆解
+
+---

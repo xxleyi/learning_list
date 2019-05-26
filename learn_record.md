@@ -43,3 +43,10 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 重温 Python 的面向对象编程，一个非常的好的讲解，偏极客，但叙述清晰，看似极端，实则帮自己夯实了基础。
 
 ----
+2019-05-27 | Monday | No.147 | Week.21
+
+[Nested attribute lookup in dicts](https://github.com/xxleyi/learning_list/issues/104)
+
+新增：Nested attribute lookup in dicts
+
+---

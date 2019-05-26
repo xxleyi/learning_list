@@ -23,3 +23,17 @@ issue 的更新无法正常反应在 Github 的提交中，不利于观察自己
 新增「数据库」学习项目笔记，针对大数据的排序和哈希，只是蜻蜓点水，接触一些真实的场景和概念，后续需要仔细拆解
 
 ---
+2019-05-25 | Saturday | No.145 | Week.20
+
+[面试时该怎么回答函数传参方式这个问题？](https://github.com/xxleyi/learning_list/issues/102)
+
+进一步丰富内容
+
+----
+2019-05-26 | Sunday | No.146 | Week.20
+
+[Python Singleton · Issue #103 · xxleyi/learning_list](https://github.com/xxleyi/learning_list/issues/103)
+
+新增 Python 中实现「单例模式」四种方法
+
+----

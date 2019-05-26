@@ -35,6 +35,11 @@ issue 的更新无法正常反应在 Github 的提交中，不利于观察自己
 [Python Singleton · Issue #103 · xxleyi/learning_list](https://github.com/xxleyi/learning_list/issues/103)
 
 新增 Python 中实现「单例模式」四种方法
+
 update：借着单例模式，稍稍理了理 Python 中实例化的内部过程。
+
+复习：[CS 61A Summer 2018 Lecture 14: OOP (一)](https://github.com/xxleyi/learning_list/issues/21)
+
+重温 Python 的面向对象编程，一个非常的好的讲解，偏极客，但叙述清晰，看似极端，实则帮自己夯实了基础。
 
 ----

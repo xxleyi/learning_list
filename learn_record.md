@@ -49,4 +49,8 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 
 新增：Nested attribute lookup in dicts
 
+[CS186 3. Single-Table Queries](https://github.com/xxleyi/learning_list/issues/105)
+
+新增：Single-Table Queries SQL 语法与背后的实现套路
+
 ---

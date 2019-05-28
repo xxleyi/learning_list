@@ -54,3 +54,10 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 新增：Single-Table Queries SQL 语法与背后的实现套路
 
 ---
+2019-05-28 | Tuesday | No.148 | Week.21
+
+[CS186 4. Join Algorithms](https://github.com/xxleyi/learning_list/issues/106)
+
+新增：实现 Join 可用的多种算法，不能说哪种最优，需要视情况而定，所以数据库通常需要将每一种都实现。
+
+---

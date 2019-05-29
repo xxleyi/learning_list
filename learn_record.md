@@ -68,4 +68,10 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 新增：Python （编程）进阶之路：阅读 The Python Language Reference
 
 ---
+2019-05-30 | Thursday | No.150 | Week.21
 
+[面试时该怎么回答函数传参方式这个问题？](https://github.com/xxleyi/learning_list/issues/102)
+
+improve: refine Java demo
+
+---

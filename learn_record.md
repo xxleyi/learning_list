@@ -61,3 +61,11 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 新增：实现 Join 可用的多种算法，不能说哪种最优，需要视情况而定，所以数据库通常需要将每一种都实现。
 
 ---
+2019-05-29 | Wednesday | No.149 | Week.21
+
+[Python （编程）进阶之路：阅读 The Python Language Reference](https://github.com/xxleyi/learning_list/issues/109)
+
+新增：Python （编程）进阶之路：阅读 The Python Language Reference
+
+---
+

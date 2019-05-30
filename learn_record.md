@@ -74,4 +74,8 @@ update：借着单例模式，稍稍理了理 Python 中实例化的内部过程
 
 improve: refine Java demo
 
+[Python Singleton](https://github.com/xxleyi/learning_list/issues/103)
+
+add: 彻底而邪恶的单例：源自单类的单例
+
 ---

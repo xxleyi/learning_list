@@ -79,3 +79,11 @@ improve: refine Java demo
 add: 彻底而邪恶的单例：源自单类的单例
 
 ---
+2019-05-31 | Friday | No.151 | Week.21
+
+[Python （编程）进阶，阅读 The Python Language Reference 之 Data Model](https://github.com/xxleyi/learning_list/issues/110)
+
+add: Data Model in Python
+
+---
+

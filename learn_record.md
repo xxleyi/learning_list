@@ -92,4 +92,8 @@ add: Data Model in Python
 
 add: Execution Model in Python
 
+[Python （编程）进阶，阅读 The Python Language Reference 之 Expressions](https://github.com/xxleyi/learning_list/issues/113)
+
+add: Expressions in Python
+
 ---

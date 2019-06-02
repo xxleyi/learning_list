@@ -103,4 +103,8 @@ add: Expressions in Python
 
 add: Simple Statements in Python
 
+[Python （编程）进阶，阅读 The Python Language Reference 之 Compound Statements](https://github.com/xxleyi/learning_list/issues/115)
+
+add: Compound Statements in Python
+
 ---

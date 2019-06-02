@@ -97,3 +97,10 @@ add: Execution Model in Python
 add: Expressions in Python
 
 ---
+2019-06-02 | Sunday | No.153 | Week.21
+
+[Python （编程）进阶，阅读 The Python Language Reference 之 Simple Statements](https://github.com/xxleyi/learning_list/issues/114)
+
+add: Simple Statements in Python
+
+---

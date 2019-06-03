@@ -108,3 +108,8 @@ add: Simple Statements in Python
 add: Compound Statements in Python
 
 ---
+2019-06-03 | Monday | No.154 | Week.22
+
+review: 「The Python Language Reference」系列笔记
+
+---

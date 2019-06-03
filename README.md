@@ -11,7 +11,7 @@
 - [CS61C(Computer Architecture)](https://github.com/xxleyi/learning_list/projects/8)
 - [CS162(OS)](https://github.com/xxleyi/learning_list/projects/9)
 - [数据结构（邓俊辉 C++）](https://github.com/xxleyi/learning_list/projects/2)
-- [Python 积累和进阶）](https://github.com/xxleyi/learning_list/projects/11)
+- [Python 积累和进阶](https://github.com/xxleyi/learning_list/projects/11)
 - [CS186(Databases)](https://github.com/xxleyi/learning_list/projects/12)
 - [JS OR FP](https://github.com/xxleyi/learning_list/projects/3)
 - [并发编程](https://github.com/xxleyi/learning_list/projects/5)

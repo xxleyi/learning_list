@@ -113,3 +113,11 @@ add: Compound Statements in Python
 review: 「The Python Language Reference」系列笔记
 
 ---
+2019-06-04 | Tuesday | No.155 | Week.22
+[邓俊晖 数据结构 1.绪论（上）](https://github.com/xxleyi/learning_list/issues/40)
+[邓俊晖 数据结构 1.绪论（下）](https://github.com/xxleyi/learning_list/issues/42)
+
+review: 复习「邓俊晖 数据结构 1.绪论（上，下）」，开始慢慢过渡到「面向面试」的学习与工作状态
+
+---
+

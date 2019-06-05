@@ -120,4 +120,9 @@ review: 「The Python Language Reference」系列笔记
 review: 复习「邓俊晖 数据结构 1.绪论（上，下）」，开始慢慢过渡到「面向面试」的学习与工作状态
 
 ---
+2019-06-05 | Wednesday | No.156 | Week.22
+[Python3 多环境配置](https://github.com/xxleyi/learning_list/issues/117)
 
+add: Python3 多环境配置
+
+---

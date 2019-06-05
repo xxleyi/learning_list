@@ -114,6 +114,7 @@ review: 「The Python Language Reference」系列笔记
 
 ---
 2019-06-04 | Tuesday | No.155 | Week.22
+
 [邓俊晖 数据结构 1.绪论（上）](https://github.com/xxleyi/learning_list/issues/40)
 [邓俊晖 数据结构 1.绪论（下）](https://github.com/xxleyi/learning_list/issues/42)
 
@@ -121,6 +122,7 @@ review: 复习「邓俊晖 数据结构 1.绪论（上，下）」，开始慢�
 
 ---
 2019-06-05 | Wednesday | No.156 | Week.22
+
 [Python3 多环境配置](https://github.com/xxleyi/learning_list/issues/117)
 
 add: Python3 多环境配置

@@ -135,3 +135,10 @@ add: Python3 多环境配置
 update: 栈混洗和中缀表达式求值算法
 
 ---
+2019-06-08 | Saturday | No.159 | Week.22
+
+[Python （编程）进阶，Descriptor in Python](https://github.com/xxleyi/learning_list/issues/118)
+
+add: Descriptor in Python
+
+---

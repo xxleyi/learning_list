@@ -157,4 +157,6 @@ review: Coroutine and Asyncio in Python, understand task concept in coroutine.
 
 add: Concurrency in Python, get hand dirty with Python's concurrency.
 
+update: Concurrency in Python, mix asyncio with threading pool to understand loop better.
+
 ---

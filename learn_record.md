@@ -149,3 +149,12 @@ add: Descriptor in Python
 add: Coroutine and Asyncio in Python
 
 ---
+2019-06-11 | Tuesday | No.162 | Week.23
+
+[Python （编程）进阶，Concurrency in Python](https://github.com/xxleyi/learning_list/issues/121)
+
+review: Coroutine and Asyncio in Python, understand task concept in coroutine.
+
+add: Concurrency in Python, get hand dirty with Python's concurrency.
+
+---

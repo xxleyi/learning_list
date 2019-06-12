@@ -166,5 +166,9 @@ update: Concurrency in Python, mix asyncio with threading pool to understand loo
 
 update: understand how yield from and asyncio.coroutine work together, finish the CPU-bound part
 
+[Formatting and Parsing of Time and Datetime in Python](https://github.com/xxleyi/learning_list/issues/122)
+
+add: Formatting and Parsing of Time and Datetime in Python
+
 ---
 

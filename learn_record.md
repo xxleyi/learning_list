@@ -160,3 +160,11 @@ add: Concurrency in Python, get hand dirty with Python's concurrency.
 update: Concurrency in Python, mix asyncio with threading pool to understand loop better.
 
 ---
+2019-06-12 | Wednesday | No.163 | Week.23
+
+[Python （编程）进阶，Concurrency in Python](https://github.com/xxleyi/learning_list/issues/121)
+
+update: understand how yield from and asyncio.coroutine work together, finish the CPU-bound part
+
+---
+

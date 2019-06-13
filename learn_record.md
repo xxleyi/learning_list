@@ -177,6 +177,9 @@ add: Formatting and Parsing of Time and Datetime in Python
 
 add: requests-async session pool
 
----
+[Comma operator in JS vs Python](https://github.com/xxleyi/learning_list/issues/124)
 
+add: Comma operator in JS vs Python
+
+---
 

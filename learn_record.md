@@ -171,4 +171,12 @@ update: understand how yield from and asyncio.coroutine work together, finish th
 add: Formatting and Parsing of Time and Datetime in Python
 
 ---
+2019-06-13 | Thursday | No.164 | Week.23
+
+[requests-async session pool](https://github.com/xxleyi/learning_list/issues/123)
+
+add: requests-async session pool
+
+---
+
 

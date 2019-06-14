@@ -182,4 +182,10 @@ add: requests-async session pool
 add: Comma operator in JS vs Python
 
 ---
+2019-06-14 | Friday | No.165 | Week.23
 
+[JS 中 class 下 static 与 super 混用时，怎如何是好？](https://github.com/xxleyi/learning_list/issues/127)
+
+add: JS 中 class 下 static 与 super 混用时，怎如何是好？
+
+---

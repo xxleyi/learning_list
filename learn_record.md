@@ -188,4 +188,8 @@ add: Comma operator in JS vs Python
 
 add: JS 中 class 下 static 与 super 混用时，怎如何是好？
 
+[Requests Retry in Python](https://github.com/xxleyi/learning_list/issues/126)
+
+add: Requests Retry in Python
+
 ---

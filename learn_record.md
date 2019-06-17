@@ -193,3 +193,10 @@ add: JS 中 class 下 static 与 super 混用时，怎如何是好？
 add: Requests Retry in Python
 
 ---
+2019-06-17 | Monday | No.168 | Week.24
+
+[整理代码风格，并聚集一些短小精悍的代码实例](https://gist.github.com/xxleyi/8547c07b0ab63f33c0defe85069ef45b)
+
+add: code_idiom gits
+
+---

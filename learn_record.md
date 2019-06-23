@@ -200,3 +200,10 @@ add: Requests Retry in Python
 add: code_idiom gits
 
 ---
+2019-06-23 | Sunday | No.174 | Week.24
+
+[动态规划：双核CPU调度背后的背包问题](https://github.com/xxleyi/learning_list/issues/130)
+
+add: knapsack problem
+
+---

@@ -212,3 +212,10 @@ add: knapsack problem
 完整推演背包问题：从貌似简明的暴力递归版，到繁冗但有价值的记忆化递归版，再到至拙至巧的制表迭代版，渐次递进，具像化推进。
 
 ---
+2019-06-25 | Tuesday | No.176 | Week.25
+
+[动态规划：最长公共子序列 LCS](https://github.com/xxleyi/learning_list/issues/131)
+
+寻着递归、memo、制表的渐进式解题思路解决最长公共子序列最大长度问题。
+
+---

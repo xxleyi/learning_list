@@ -219,3 +219,9 @@ add: knapsack problem
 寻着递归、memo、制表的渐进式解题思路解决最长公共子序列最大长度问题。
 
 ---
+2019-06-26 | Wednesday | No.177 | Week.25
+
+[二维有序数组的二分查找问题](https://github.com/xxleyi/learning_list/issues/133)
+
+---
+

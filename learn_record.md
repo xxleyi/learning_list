@@ -224,4 +224,10 @@ add: knapsack problem
 [二维有序数组的二分查找问题](https://github.com/xxleyi/learning_list/issues/133)
 
 ---
+2019-06-27 | Thursday | No.178 | Week.25
 
+[邓俊晖 数据结构 4.栈和队列](https://github.com/xxleyi/learning_list/issues/70)
+
+终于勉强过完栈与队列，分别派生自向量和列表，关键是栈的诸多运用
+
+---

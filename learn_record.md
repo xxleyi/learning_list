@@ -231,3 +231,10 @@ add: knapsack problem
 终于勉强过完栈与队列，分别派生自向量和列表，关键是栈的诸多运用
 
 ---
+2019-06-28 | Friday | No.179 | Week.25
+
+[邓俊晖 数据结构 5.二叉树](https://github.com/xxleyi/learning_list/issues/134)
+
+add: 邓俊晖 数据结构 5.二叉树（前半部分表示方法和接口实现）
+
+---

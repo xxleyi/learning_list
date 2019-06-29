@@ -238,3 +238,10 @@ add: knapsack problem
 add: 邓俊晖 数据结构 5.二叉树（前半部分表示方法和接口实现）
 
 ---
+2019-06-29 | Saturday | No.180 | Week.25
+
+[Flask Header Auth](https://github.com/xxleyi/learning_list/issues/135)
+
+add: Flask Header Auth
+
+---

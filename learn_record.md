@@ -245,3 +245,10 @@ add: 邓俊晖 数据结构 5.二叉树（前半部分表示方法和接口实�
 add: Flask Header Auth
 
 ---
+2019-06-30 | Sunday | No.181 | Week.25
+
+[邓俊晖 数据结构 5.二叉树](https://github.com/xxleyi/learning_list/issues/134)
+
+update: 将相关遍历实现全部用 Python 补全
+
+---

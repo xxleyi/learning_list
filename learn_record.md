@@ -252,3 +252,8 @@ add: Flask Header Auth
 update: 将相关遍历实现全部用 Python 补全
 
 ---
+2019-07-01 | Monday | No.182 | Week.26
+
+update: 继续合理重复二叉树，尝试更好的陈述和总结自己的理解
+
+---

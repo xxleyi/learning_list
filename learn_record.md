@@ -257,3 +257,10 @@ update: 将相关遍历实现全部用 Python 补全
 update: 继续合理重复二叉树，尝试更好的陈述和总结自己的理解
 
 ---
+2019-07-03 | Wednesday | No.184 | Week.26
+
+[邓俊晖 数据结构 6.图](https://github.com/xxleyi/learning_list/issues/136)
+
+add: Graph, 概念和邻接矩阵的实现
+
+---

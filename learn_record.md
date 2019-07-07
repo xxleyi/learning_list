@@ -274,3 +274,10 @@ update: BFS of Graph
 update: DFS of Graph
 
 ---
+2019-07-07 | Sunday | No.188 | Week.26
+
+[邓俊晖 数据结构 7.二叉搜索树](https://github.com/xxleyi/learning_list/issues/137)
+
+add: 邓俊晖 数据结构 7.二叉搜索树
+
+---

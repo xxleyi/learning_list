@@ -281,3 +281,11 @@ update: DFS of Graph
 add: 邓俊晖 数据结构 7.二叉搜索树
 
 ---
+2019-07-09 | Tuesday | No.190 | Week.27
+
+[邓俊晖 数据结构 8.高级搜索树（上）](https://github.com/xxleyi/learning_list/issues/138)
+
+add: 邓俊晖 数据结构 8.高级搜索树（上）
+
+---
+

@@ -288,4 +288,10 @@ add: 邓俊晖 数据结构 7.二叉搜索树
 add: 邓俊晖 数据结构 8.高级搜索树（上）
 
 ---
+2019-07-11 | Thursday | No.192 | Week.27
 
+[复习 Execution Model](https://github.com/xxleyi/learning_list/issues/140)
+
+add: 再复习一遍 Execution Model，依旧收获满满
+
+---

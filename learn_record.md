@@ -295,3 +295,10 @@ add: 邓俊晖 数据结构 8.高级搜索树（上）
 add: 再复习一遍 Execution Model，依旧收获满满
 
 ---
+2019-07-15 | Monday | No.196 | Week.28
+
+[邓俊晖 数据结构 8.高级搜索树（下）](https://github.com/xxleyi/learning_list/issues/139)
+
+add: 邓俊晖 数据结构 8.高级搜索树（下）（基础概念）
+
+---

@@ -7,6 +7,9 @@ class Entry:
         self.key = key
         self.data = data
 
+    def __repr__(self):
+        return f"<{self.key}, {self.data}>"
+
     def __eq__(self, e):
         return self.key == e.key
 

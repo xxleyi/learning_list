@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from entry import Entry
+from bbst.entry import Entry
 
 RB_RED = 0
 RB_BLACK = 1
@@ -34,6 +34,9 @@ class BinNode(object):
         self.height = height
         self.npl = npl
         self.color = color
+
+    def __repr__(self):
+        return str(self.e)
 
     def __eq__(self, value):
         return self.e == value.e
@@ -95,7 +98,16 @@ class BinNode(object):
         pass
 
     def trav_level(self, vst):
-        pass
+        for i in range(self.height + 1):
+            self._visit_tree_at_level(self, i, vst)
+
+    def _visit_tree_at_level(self, tree, level, vst):
+        if level == 0:
+            vst(tree)
+        if lc := tree.lc:
+            self._visit_tree_at_level(lc, level - 1, vst)
+        if rc := tree.rc:
+            self._visit_tree_at_level(rc, level - 1, vst)
 
 
 class BinTree(object):
@@ -103,9 +115,26 @@ class BinTree(object):
         self._size = 0
         self._root = None
 
+    def __repr__(self):
+        s_list = []
+
+        def visit(x):
+            s_list.append(" " * 4 * self.depth(x) + str(x.e))
+
+        self.trav_pre(visit)
+        return "\n".join(s_list)
+
     @property
     def size(self):
         return self._size
+
+    def depth(self, x):
+        level = 0
+        root = self._root
+        while x is not root:
+            level += 1
+            x = x.parent
+        return level
 
     @property
     def empty(self):
@@ -168,10 +197,22 @@ class BinTree(object):
             x = x.parent
 
 
-t = BinTree()
-t.insert_as_root(Entry(1, "I am one"))
-t.insert_as_lc(t.root, Entry(2, "I am two"))
-t.insert_as_rc(t.root, Entry(3, "I am three"))
-t.insert_as_lc(t.root.lc, Entry(4, "I am four"))
+if __name__ == "__main__":
 
-t.trav_pre(visit)
+    t = BinTree()
+    t.insert_as_root(Entry(1, "I am one"))
+    t.insert_as_lc(t.root, Entry(2, "I am two"))
+    t.insert_as_rc(t.root, Entry(3, "I am three"))
+    t.insert_as_lc(t.root.lc, Entry(4, "I am four"))
+
+    assert is_root(t.root)
+    assert is_lchild(t.root.lc)
+    assert is_rchild(t.root.rc)
+
+    print("mind node format:\n", t)
+
+    print("pre order trav:\n")
+    t.trav_pre(visit)
+
+    print("level order trav:\n")
+    t.trav_level(visit)

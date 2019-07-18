@@ -197,8 +197,8 @@ class BinTree(object):
             x = x.parent
 
 
-if __name__ == "__main__":
-
+def main():
+    
     t = BinTree()
     t.insert_as_root(Entry(1, "I am one"))
     t.insert_as_lc(t.root, Entry(2, "I am two"))
@@ -216,3 +216,9 @@ if __name__ == "__main__":
 
     print("level order trav:\n")
     t.trav_level(visit)
+
+
+if __name__ == "__main__":
+
+    main()
+    

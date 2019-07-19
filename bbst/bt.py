@@ -24,6 +24,15 @@ from_parent_to = (
 visit = lambda x: print((x.e.key, x.e.data, x.height))
 
 
+class Stack(list):
+    def __init__(self, *args, **kwargs):
+        return super().__init__(*args, **kwargs)
+
+    def top(self):
+        if self:
+            return self[-1]
+
+
 class BinNode(object):
     def __init__(self, e, parent=None, lc=None, rc=None, height=0, npl=1, color=RB_RED):
         assert isinstance(e, Entry), "e must be Entry type."
@@ -81,9 +90,28 @@ class BinNode(object):
             s.append(x.rc)
             x = x.lc
 
+    @staticmethod
+    def _go_along_left_branch(x, s):
+        while x:
+            s.append(x)
+            x = x.lc
+
+    @staticmethod
+    def _goto_HLVFL(s):
+
+        while x := s.top():
+            if lc := x.lc:
+                if rc := x.rc:
+                    s.append(rc)
+                s.append(lc)
+            else:
+                s.append(x.rc)
+
+        s.pop()
+
     def trav_pre(self, vst):
-        # Create one stack
-        s = []
+        # create one stack
+        s = Stack()
         x = self
         while True:
             self._visit_along_left_branch(x, s, vst)
@@ -92,10 +120,27 @@ class BinNode(object):
             x = s.pop()
 
     def trav_in(self, vst):
-        pass
+        # create one stack
+        s = Stack()
+        x = self
+        while True:
+            self._go_along_left_branch(x, s)
+            if not s:
+                break
+            x = s.pop()
+            vst(x)
+            x = x.rc
 
     def trav_post(self, vst):
-        pass
+        # create one stack
+        s = Stack()
+        x = self
+        s.append(x)
+        while s:
+            if s.top() is not x.parent:
+                self._goto_HLVFL(s)
+            x = s.pop()
+            vst(x)
 
     def trav_level(self, vst):
         for i in range(self.height + 1):
@@ -115,7 +160,7 @@ class BinTree(object):
         self._size = 0
         self._root = None
 
-    def __repr__(self):
+    def __str__(self):
         s_list = []
 
         def visit(x):
@@ -147,16 +192,19 @@ class BinTree(object):
     def insert_as_root(self, e: Entry) -> BinNode:
         self._root = BinNode(e)
         self.update_height_above(self._root)
+        self._size += 1
         return self._root
 
     def insert_as_lc(self, x: BinNode, e: Entry) -> BinNode:
         x.lc = BinNode(e, x)
         self.update_height_above(x.lc)
+        self._size += 1
         return x.lc
 
     def insert_as_rc(self, x: BinNode, e: Entry) -> BinNode:
         x.rc = BinNode(e, x)
         self.update_height_above(x.rc)
+        self._size += 1
         return x.lc
 
     def attach_as_lc(self, x: BinNode, T) -> BinNode:
@@ -198,7 +246,7 @@ class BinTree(object):
 
 
 def main():
-    
+
     t = BinTree()
     t.insert_as_root(Entry(1, "I am one"))
     t.insert_as_lc(t.root, Entry(2, "I am two"))
@@ -209,16 +257,23 @@ def main():
     assert is_lchild(t.root.lc)
     assert is_rchild(t.root.rc)
 
+    print("tree size is", t.size)
+
     print("mind node format:\n", t)
 
-    print("pre order trav:\n")
+    print("\npre order trav:")
     t.trav_pre(visit)
 
-    print("level order trav:\n")
+    print("\nin order trav:")
+    t.trav_in(visit)
+
+    print("\npost order trav:")
+    t.trav_post(visit)
+
+    print("\nlevel order trav:")
     t.trav_level(visit)
 
 
 if __name__ == "__main__":
 
     main()
-    

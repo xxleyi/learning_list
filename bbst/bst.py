@@ -1,5 +1,26 @@
 # -*- coding: utf-8 -*-
 
+from bbst.bt import (
+    RB_RED,
+    RB_BLAC,
+    stature,
+    is_root,
+    is_lchi,
+    is_rchi,
+    has_par,
+    has_lch,
+    has_rch,
+    has_chi,
+    has_bot,
+    is_leaf,
+    sibling,
+    uncle,
+    from_pa,
+    visit,
+    Stack,
+    BinNode,
+)
+
 
 class BST(object):
     def __init__(self, *args, **kwargs):
@@ -7,6 +28,4 @@ class BST(object):
 
 
 if __name__ == "__main__":
-    from pprint import pprint
-
-    pprint(Entry(3, 4) >= Entry(3, 5))
+    pass

@@ -207,11 +207,21 @@ class BinTree(object):
         self._size += 1
         return x.lc
 
-    def attach_as_lc(self, x: BinNode, T) -> BinNode:
-        pass
+    def attach_as_lc(self, x: BinNode, S) -> BinNode:
+        x.lc = S.root
+        if x.lc:
+            x.lc.parent = x
+        self._size += S.size
+        self.update_height_above(x)
+        del S._root
 
-    def attach_as_rc(self, x: BinNode, T) -> BinNode:
-        pass
+    def attach_as_rc(self, x: BinNode, S) -> BinNode:
+        x.rc = S.root
+        if x.rc:
+            x.rc.parent = x
+        self._size += S.size
+        self.update_height_above(x)
+        del S._root
 
     def remove(self, x: BinNode) -> int:
         pass
@@ -247,11 +257,17 @@ class BinTree(object):
 
 def main():
 
+    from copy import deepcopy
+
     t = BinTree()
     t.insert_as_root(Entry(1, "I am one"))
     t.insert_as_lc(t.root, Entry(2, "I am two"))
     t.insert_as_rc(t.root, Entry(3, "I am three"))
     t.insert_as_lc(t.root.lc, Entry(4, "I am four"))
+    temp_lc = deepcopy(t)
+    temp_rc = deepcopy(t)
+    t.attach_as_lc(t.root.lc.lc, temp_lc)
+    t.attach_as_rc(t.root.lc.lc, temp_rc)
 
     assert is_root(t.root)
     assert is_lchild(t.root.lc)

@@ -18,9 +18,6 @@ has_both_child = lambda x: has_lchild(x) and has_rchild(x)
 is_leaf = lambda x: not has_child(x)
 sibling = lambda x: x.parent.rc if is_lchild(x) else x.parent.lc
 uncle = lambda x: sibling(x.parent)
-from_parent_to = (
-    lambda x, t: t.root if is_root(x) else x.parent.lc if is_lchild(x) else x.parent.rc
-)
 visit = lambda x: print((x.e.key, x.e.data, x.height))
 
 
@@ -67,7 +64,9 @@ class BinNode(object):
 
     @property
     def size(self):
-        pass
+        if not self:
+            return 0
+        return 1 + (self.lc.size if self.lc else 0) + (self.rc.size if self.rc else 0)
 
     def insert_as_lc(self, e):
         b = BinNode(e, self)
@@ -224,10 +223,35 @@ class BinTree(object):
         del S._root
 
     def remove(self, x: BinNode) -> int:
-        pass
+        self._set_from_parent_to_here_to_be_none(x)
+        self.update_height_above(x.parent)
+        n = self._remove_at(x)
+        self._size -= n
+        return n
+
+    def _remove_at(self, x: BinNode) -> int:
+        if not x:
+            return 0
+        n = 1 + self._remove_at(x.lc) + self._remove_at(x.rc)
+        return n
 
     def secede(self, x: BinNode):
-        pass
+        self._set_from_parent_to_here_to_be_none(x)
+        self.update_height_above(x.parent)
+        S = BinTree()
+        S._root = x
+        x.parent = None
+        S._size = x.size
+        self._size -= S._size
+        return S
+
+    def _set_from_parent_to_here_to_be_none(self, x):
+        if is_root(x):
+            self._root = None
+        elif is_lchild(x):
+            x.parent.lc = None
+        else:
+            x.parent.rc = None
 
     def trav_pre(self, vst):
         if self._root:
@@ -268,6 +292,8 @@ def main():
     temp_rc = deepcopy(t)
     t.attach_as_lc(t.root.lc.lc, temp_lc)
     t.attach_as_rc(t.root.lc.lc, temp_rc)
+    t.remove(t.root.lc.lc.rc)
+    t.secede(t.root.lc.lc.lc)
 
     assert is_root(t.root)
     assert is_lchild(t.root.lc)

@@ -15,7 +15,6 @@ from bbst.bt import (
     is_leaf,
     sibling,
     uncle,
-    from_pa,
     visit,
     Stack,
     BinNode,

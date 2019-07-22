@@ -80,7 +80,16 @@ class BinNode(object):
 
     @property
     def succ(self):
-        pass
+        s = self
+        if self.rc:
+            s = rc
+            while has_lchild(s):
+                s = s.lc
+        else:
+            while is_rchild(s):
+                s = s.parent
+            s = s.parent
+        return s
 
     @staticmethod
     def _visit_along_left_branch(x, s, vst):
@@ -293,11 +302,13 @@ def main():
     t.attach_as_lc(t.root.lc.lc, temp_lc)
     t.attach_as_rc(t.root.lc.lc, temp_rc)
     t.remove(t.root.lc.lc.rc)
-    t.secede(t.root.lc.lc.lc)
+    subtree = t.secede(t.root.lc.lc.lc)
 
     assert is_root(t.root)
     assert is_lchild(t.root.lc)
     assert is_rchild(t.root.rc)
+    assert not isinstance(subtree, BinNode)
+    assert isinstance(subtree, BinTree)
 
     print("tree size is", t.size)
 

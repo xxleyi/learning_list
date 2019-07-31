@@ -316,3 +316,10 @@ update: 开始用 Python 代码实现邓老师设计的二叉树 ADT，从节点
 update: 实现二叉树前序遍历 ADT
 
 ---
+2019-07-31 | Wednesday | No.212 | Week.30
+
+[JS OR FP](https://github.com/xxleyi/learning_list/projects/3)
+
+Review: 函数传参，闭包，赋值表达式，REPL，垃圾回收
+
+---

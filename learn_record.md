@@ -323,3 +323,10 @@ update: 实现二叉树前序遍历 ADT
 Review: 函数传参，闭包，赋值表达式，REPL，垃圾回收
 
 ---
+2019-08-01 | Thursday | No.213 | Week.30
+
+[CS61A(SICP in Python)](https://github.com/xxleyi/learning_list/projects/1)
+
+Review: 编程基础，前五
+
+---

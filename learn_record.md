@@ -330,3 +330,11 @@ Review: 函数传参，闭包，赋值表达式，REPL，垃圾回收
 Review: 编程基础，前五
 
 ---
+2019-08-02 | Friday | No.214 | Week.30
+
+
+[CS61A(SICP in Python)](https://github.com/xxleyi/learning_list/projects/1)
+
+Review: 编程基础，六七
+
+---

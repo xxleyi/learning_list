@@ -338,3 +338,10 @@ Review: 编程基础，前五
 Review: 编程基础，六七
 
 ---
+2019-08-03 | Saturday | No.215 | Week.30
+
+[CS61A(SICP in Python)](https://github.com/xxleyi/learning_list/projects/1)
+
+Review: 编程基础，9-13
+
+---

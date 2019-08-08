@@ -345,3 +345,10 @@ Review: 编程基础，六七
 Review: 编程基础，9-13
 
 ---
+2019-08-08 | Thursday | No.220 | Week.31
+
+[Python Singleton · Issue #103 · xxleyi/learning_list](https://github.com/xxleyi/learning_list/issues/103)
+
+Review: Python 进阶之 singleton
+
+---

@@ -347,8 +347,15 @@ Review: 编程基础，9-13
 ---
 2019-08-08 | Thursday | No.220 | Week.31
 
-[Python Singleton · Issue #103 · xxleyi/learning_list](https://github.com/xxleyi/learning_list/issues/103)
+[Python Singleton](https://github.com/xxleyi/learning_list/issues/103)
 
 Review: Python 进阶之 singleton
+
+---
+2019-08-09 | Friday | No.221 | Week.31
+
+[Python （编程）进阶，Descriptor in Python](https://github.com/xxleyi/learning_list/issues/118)
+
+Review: Python 进阶之 descriptor
 
 ---

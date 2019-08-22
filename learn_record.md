@@ -359,3 +359,10 @@ Review: Python 进阶之 singleton
 Review: Python 进阶之 descriptor
 
 ---
+2019-08-22 | Thursday | No.234 | Week.33
+
+[Python Singleton](https://github.com/xxleyi/learning_list/issues/103)
+
+Review: Python Singleton
+
+---

@@ -366,3 +366,8 @@ Review: Python 进阶之 descriptor
 Review: Python Singleton
 
 ---
+2019-08-29 | Thursday | No.241 | Week.34
+
+整理面试知识清单，有目标，迭代式，烂熟于心式的面向面试式学习
+
+---

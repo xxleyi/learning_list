@@ -2,17 +2,8 @@
 
 using namespace std;
 
-bool bin_find(int *a, int lo, int hi, int e)
-{
-    int mid = 0;
-    while (lo < hi)
-    {
-        mid = lo + (hi - lo) / 2;
-        if (e < a[mid])
-            hi = mid;
-        else
-            lo = mid + 1;
-    }
+bool bin_find(int a[], int lo, int hi, int e, int mid=0) {
+    while (lo < hi) mid = lo + (hi - lo) / 2, e < a[mid] ? hi = mid : lo = mid + 1;
     return lo >= 1 && a[lo - 1] == e;
 }
 

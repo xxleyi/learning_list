@@ -1,8 +1,19 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 bool bin_find(int a[], int lo, int hi, int e)
+{
+    while (lo < hi)
+    {
+        int mid = lo + (hi - lo) / 2;
+        e < a[mid] ? hi = mid : lo = mid + 1;
+    }
+    return lo >= 1 && a[lo - 1] == e;
+}
+
+bool bin_find(vector<int> a, int lo, int hi, int e)
 {
     while (lo < hi)
     {
@@ -29,6 +40,17 @@ int main(int argc, char const *argv[])
     cout << "find if 100 in empty b: "
          << boolalpha
          << bin_find(b, 0, b_size, 100)
+         << endl;
+
+    vector<int> v;
+    v.push_back(1);
+    v.push_back(3);
+    v.push_back(100);
+    v.pop_back();
+    v.push_back(5);
+    cout << "find if 5 in vector v: "
+         << boolalpha
+         << bin_find(v, 0, v.size(), 5)
          << endl;
 
     return 0;

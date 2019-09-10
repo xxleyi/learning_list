@@ -15,18 +15,20 @@ bool bin_find(int a[], int lo, int hi, int e)
 int main(int argc, char const *argv[])
 {
     int a[] = {1, 2, 3, 4, 5};
+    int a_size = sizeof(a) / sizeof(*a);
     cout << "find if 4 in a: "
          << boolalpha
-         << bin_find(a, 0, sizeof(a), 4)
+         << bin_find(a, 0, a_size, 4)
          << endl;
     cout << "find if 40 in a: "
          << boolalpha
-         << bin_find(a, 0, sizeof(a), 40)
+         << bin_find(a, 0, a_size, 40)
          << endl;
     int b[] = {};
+    int b_size = sizeof(b) / sizeof(*b);
     cout << "find if 100 in empty b: "
          << boolalpha
-         << bin_find(b, 0, sizeof(b), 100)
+         << bin_find(b, 0, b_size, 100)
          << endl;
 
     return 0;

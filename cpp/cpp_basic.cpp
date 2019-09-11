@@ -4,6 +4,7 @@
 #include <vector>
 #include <map>
 #include <unordered_map>
+#include <sstream>
 
 // basic io: print line and accept line
 void io()
@@ -98,6 +99,43 @@ void iterate_unordered_map()
         cout << "key " << i.first << " =>" << " value " << i.second << endl;
 }
 
+// best way convert to string
+template < typename CanToStr >
+std::string to_str(const CanToStr & t)
+{
+    std::ostringstream ss;
+    ss << t;
+    return ss.str();
+}
+
+template < typename MaybeToInt >
+int to_int(const MaybeToInt & t)
+{
+    std::stringstream ss(t);
+    int i;
+    ss >> i;
+    return i;
+}
+
+void play_to_str()
+{
+    using namespace std;
+    string str = to_str(3.14e10);
+    cout << str << endl;
+    str = to_str(0.234e1);
+    cout << str << endl;
+}
+
+void play_to_int()
+{
+    using namespace std;
+    // best way convert to int
+    int i = stoi("2945");
+    cout << i << endl;
+    i = to_int("2945");
+    cout << i << endl;
+}
+
 int main(int argc, char const *argv[])
 {
     io();
@@ -106,5 +144,7 @@ int main(int argc, char const *argv[])
     iterate_vector();
     iterate_map();
     iterate_unordered_map();
+    play_to_str();
+    play_to_int();
     return 0;
 }

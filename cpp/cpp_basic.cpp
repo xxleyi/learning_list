@@ -3,6 +3,7 @@
 #include <array>
 #include <vector>
 #include <map>
+#include <unordered_map>
 
 // basic io: print line and accept line
 void io()
@@ -85,6 +86,18 @@ void iterate_map()
         cout << "key " << i.first << " => value " << i.second << endl;
 }
 
+void iterate_unordered_map()
+{
+    using namespace std;
+    unordered_map<string, string> m;
+    m["name"] = "liuximin";
+    m["age"] = "99";
+    m.insert(pair<string, string>("lover", "flower"));
+    cout << "iterate unordered_map m:" << endl;
+    for (auto i : m)
+        cout << "key " << i.first << " =>" << " value " << i.second << endl;
+}
+
 int main(int argc, char const *argv[])
 {
     io();
@@ -92,5 +105,6 @@ int main(int argc, char const *argv[])
     swap_str();
     iterate_vector();
     iterate_map();
+    iterate_unordered_map();
     return 0;
 }

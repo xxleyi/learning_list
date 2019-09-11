@@ -2,6 +2,7 @@
 #include <string>
 #include <array>
 #include <vector>
+#include <map>
 
 // basic io: print line and accept line
 void io()
@@ -66,11 +67,30 @@ void iterate_vector()
         cout << v[i] << endl;
 }
 
+void iterate_map()
+{
+    using namespace std;
+    map<int, int> m;
+    m[1] = 1;
+    m[2] = 2;
+    m[3] = 3;
+    m.insert(pair<int, int>(4, 4));
+    m.insert(pair<int, int>(55, 4));
+    m.erase(55);
+    m.insert(pair<int, int>(4, 44));
+    cout << "if 4 in m: " << boolalpha << (m.count(4) ? true : false) << endl;
+    cout << "iterate map in happy way:" << endl;
+    cout << "for (auto i : m)\n\ti.first, i.second" << endl;
+    for (auto i : m)
+        cout << "key " << i.first << " => value " << i.second << endl;
+}
+
 int main(int argc, char const *argv[])
 {
     io();
     char_array_vs_string();
     swap_str();
     iterate_vector();
+    iterate_map();
     return 0;
 }

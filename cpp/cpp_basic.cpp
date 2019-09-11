@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <array>
+#include <vector>
 
 // basic io: print line and accept line
 void io()
@@ -47,10 +48,29 @@ void swap_str()
     std::cout << "after  swap: " << even << std::endl;
 }
 
+void iterate_vector()
+{
+    using namespace std;
+    vector<int> v = {1, 2, 3, 4, 5};
+    cout << "easy and happy way:" << endl;
+    cout << "for (auto i : v)\n\ti" << endl;
+    for (auto i : v)
+        cout << i << endl;
+    cout << "\nolder way:" << endl;
+    cout << "for (auto i = v.begin(); i != v.end(); ++i)\n\t*i" << endl;
+    for (auto i = v.begin(); i != v.end(); ++i)
+        cout << *i << endl;
+    cout << "\noldest way:" << endl;
+    cout << "for (int i = 0; i < v.size(); ++i)\n\tv[i]" << endl;
+    for (int i = 0; i < v.size(); ++i)
+        cout << v[i] << endl;
+}
+
 int main(int argc, char const *argv[])
 {
     io();
     char_array_vs_string();
     swap_str();
+    iterate_vector();
     return 0;
 }

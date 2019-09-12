@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool bin_find(int a[], int lo, int hi, int e)
+bool bin_find(const int *a, int lo, int hi, const int e)
 {
     while (lo < hi)
     {
@@ -13,7 +13,7 @@ bool bin_find(int a[], int lo, int hi, int e)
     return lo >= 1 && a[lo - 1] == e;
 }
 
-bool bin_find(vector<int> a, int lo, int hi, int e)
+bool bin_find(const vector<int> &a, int lo, int hi, const int e)
 {
     while (lo < hi)
     {
@@ -49,6 +49,12 @@ int main(int argc, char const *argv[])
     v.pop_back();
     v.push_back(5);
     cout << "find if 5 in vector v: "
+         << boolalpha
+         << bin_find(v, 0, v.size(), 5)
+         << endl;
+
+    v.clear();
+    cout << "find if 5 in empty vector v: "
          << boolalpha
          << bin_find(v, 0, v.size(), 5)
          << endl;

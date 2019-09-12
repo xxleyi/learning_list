@@ -25,7 +25,7 @@ using namespace std;
 // }
 
 
-int get_max_profit(vector<int> & prices)
+int get_max_profit(const vector<int> & prices)
 {
     int profit = 0;
     for (int i = 1; i < prices.size(); i++)

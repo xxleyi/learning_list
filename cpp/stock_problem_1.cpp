@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int get_max_profit(int prices[], int size)
+int get_max_profit(const int prices[], const int size)
 {
     int max_profit = 0;
     int min_price = INT_MAX;

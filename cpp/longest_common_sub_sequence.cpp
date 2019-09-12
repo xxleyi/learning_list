@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int lcs_sub_seq(char a[], char b[], int m, int n)
+int lcs_sub_seq(const char a[], const char b[], const int m, const int n)
 {
     int t[m + 1][n + 1];
     for (int i = 0; i <= m; i++)

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int lcs_sub_str(char *m, char *n, int l_m, int l_n)
+int lcs_sub_str(const char *m, const char *n, const int l_m, const int l_n)
 {
     int t[l_m + 1][l_n + 1];
     int max_len = 0;

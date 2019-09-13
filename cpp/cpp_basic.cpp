@@ -136,6 +136,32 @@ void play_to_int()
     cout << i << endl;
 }
 
+void play_struct()
+{
+    using namespace std;
+    struct address {
+        string name;
+        string phone;
+        string mail_code;
+        int city_code;
+    };
+
+    address my_home{
+        "fei xian",
+        "1234567",
+        "0539",
+        22,
+    };
+    cout << "print my_home:\n";
+    cout << my_home.name << endl;
+    cout << my_home.phone << endl;
+    cout << my_home.mail_code << endl;
+    cout << my_home.city_code << endl;
+    my_home.name = "su zhou";
+    cout << "print my new home:\n";
+    cout << my_home.name << endl;
+}
+
 int main(int argc, char const *argv[])
 {
     io();
@@ -146,5 +172,6 @@ int main(int argc, char const *argv[])
     iterate_unordered_map();
     play_to_str();
     play_to_int();
+    play_struct();
     return 0;
 }

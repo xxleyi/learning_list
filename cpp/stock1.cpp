@@ -3,7 +3,7 @@
 
 Stock::Stock()
 {
-    std::strcpy(company, "no name");
+    company = "no name";
     shares = 0;
     share_val = 0;
     total_val = 0;
@@ -11,8 +11,7 @@ Stock::Stock()
 
 Stock::Stock(const char * co, int n, double pr)
 {
-    std::strncpy(company, co, 29);
-    company[29] = '\0';
+    company = co;
 
     if (n < 0)
     {

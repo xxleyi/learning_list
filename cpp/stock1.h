@@ -1,10 +1,11 @@
 #ifndef STOCK1_H_
 #define STOCK1_H_
+#include <string>
 
 class Stock
 {
 private:
-    char company[30];
+    std::string company;
     int shares;
     double share_val;
     double total_val;

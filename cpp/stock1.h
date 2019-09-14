@@ -17,6 +17,7 @@ public:
     void sell(int num, double price);
     void update(double price);
     void show() const;
+    const Stock &topval(const Stock &s) const;
 };
 
 #endif

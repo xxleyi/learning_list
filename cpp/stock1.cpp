@@ -82,3 +82,11 @@ void Stock::show() const
          << "  Share Price: $" << share_val
          << "  Total Worth: $" << total_val << endl;
 }
+
+const Stock & Stock::topval(const Stock & s) const
+{
+    if (s.total_val > total_val)
+        return s;
+    else
+        return *this;
+}

@@ -17,6 +17,7 @@ public:
     void sell(int num, double price);
     void update(double price);
     void show();
+    ~Stock();
 };
 
 Stock::Stock()
@@ -42,6 +43,11 @@ Stock::Stock(const char * co, int n, double pr)
         shares = n;
     share_val = pr;
     set_tot();
+}
+
+Stock::~Stock()
+{
+    std::cout << "Bye, " << company << "!\n";
 }
 
 void Stock::acquire(const char * co, int n, double pr)

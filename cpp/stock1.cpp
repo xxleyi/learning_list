@@ -25,6 +25,22 @@ Stock::Stock(const char * co, int n, double pr)
     set_tot();
 }
 
+Stock::Stock(const std::string & co, int n, double pr)
+{
+    company = co;
+
+    if (n < 0)
+    {
+        std::cerr << "Number of shares can't be negative;"
+                  << company << " shares set to 0.\n";
+        shares = 0;
+    }
+    else
+        shares = n;
+    share_val = pr;
+    set_tot();
+}
+
 Stock::~Stock()
 {
     std::cout << "Bye, " << company << "!\n";

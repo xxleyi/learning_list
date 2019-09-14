@@ -23,12 +23,13 @@ int main(int argc, char const *argv[])
     int st;
     for (st = 0; st < STKS; st++)
         stocks[st].show();
-
-    Stock top = stocks[0];
+    std::string co = "whatever";
+    Stock top = Stock(co);
+    top.show();
     for (st = 1; st < STKS; st++)
         top = top.topval(stocks[st]);
     cout << "\nMost valuable holding:\n";
     top.show();
-    
+
     return 0;
 }

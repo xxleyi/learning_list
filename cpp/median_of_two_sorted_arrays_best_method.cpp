@@ -6,13 +6,13 @@ using namespace std;
 
 class Solution {
 private:
-inline int safe_get(vector<int> & a, int idx) {
+inline int safe_get(vector<int> & v, int idx) {
     if (idx < 0)
         return INT_MIN;
-    else if (idx >= a.size())
+    else if (idx >= v.size())
         return INT_MAX;
     else
-        return a[idx];
+        return v[idx];
 }
 public:
     double find_median_sorted_arrays(vector<int>& a, vector<int>& b) {
@@ -20,13 +20,13 @@ public:
         int lo = 0, hi = m, after = (m + n + 1) / 2, pa;
         while (lo < hi) {
             pa = lo + (hi - lo) / 2;
-            safe_get(a, pa) >= safe_get(b, after - pa - 1) ? hi = pa : lo = pa + 1;
+            a[pa] >= safe_get(b, after - pa - 1) ? hi = pa : lo = pa + 1;
         }
         pa = lo;
         int pb = after - lo;
         double max_left = max(safe_get(a, pa - 1), safe_get(b, pb - 1));
         double min_right = min(safe_get(a, pa), safe_get(b, pb));
-        return (m + n) % 2 ? max_left : (min_right + max_left) / 2;
+        return (m + n) % 2 ? max_left : (max_left + min_right) / 2;
     }
 };
 

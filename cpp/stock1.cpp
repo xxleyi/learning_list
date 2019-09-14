@@ -1,24 +1,5 @@
 #include <iostream>
-#include <cstring>
-
-class Stock
-{
-private:
-    char company[30];
-    int shares;
-    double share_val;
-    double total_val;
-    void set_tot() { total_val = shares * share_val;  }
-public:
-    Stock();
-    Stock(const char *co, int n = 0, double pr = 0.0);
-    void acquire(const char *co, int n, double pr);
-    void buy(int num, double price);
-    void sell(int num, double price);
-    void update(double price);
-    void show();
-    ~Stock();
-};
+#include "stock1.h"
 
 Stock::Stock()
 {
@@ -48,21 +29,6 @@ Stock::Stock(const char * co, int n, double pr)
 Stock::~Stock()
 {
     std::cout << "Bye, " << company << "!\n";
-}
-
-void Stock::acquire(const char * co, int n, double pr)
-{
-    std::strncpy(company, co, 29);
-    company[29] = '\0';
-    if (n < 0)
-    {
-        std::cerr << "Number of shares can't be negative;"
-                  << company << " shares set to 0.\n";
-    }
-    else
-        shares = n;
-    share_val = pr;
-    set_tot();
 }
 
 void Stock::buy(int num, double price)
@@ -115,22 +81,4 @@ void Stock::show()
          << "  Shares: " << shares << endl
          << "  Share Price: $" << share_val
          << "  Total Worth: $" << total_val << endl;
-}
-
-int main(int argc, char const *argv[])
-{
-    using std::cout;
-    using std::ios_base;
-    Stock stock1;
-    stock1.show();
-    stock1.acquire("NanoSmart", 20, 12.50);
-    cout.setf(ios_base::fixed);
-    cout.precision(2);
-    cout.setf(ios_base::showpoint);
-    stock1.show();
-    stock1.buy(15, 18.25);
-    stock1.show();
-    stock1.sell(400, 20.00);
-    stock1.show();
-    return 0;
 }

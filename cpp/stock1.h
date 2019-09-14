@@ -16,7 +16,7 @@ public:
     void buy(int num, double price);
     void sell(int num, double price);
     void update(double price);
-    void show();
+    void show() const;
 };
 
 #endif

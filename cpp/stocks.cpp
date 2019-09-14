@@ -10,6 +10,7 @@ private:
     double total_val;
     void set_tot() { total_val = shares * share_val;  }
 public:
+    Stock();
     Stock(const char *co, int n = 0, double pr = 0.0);
     void acquire(const char *co, int n, double pr);
     void buy(int num, double price);
@@ -17,6 +18,14 @@ public:
     void update(double price);
     void show();
 };
+
+Stock::Stock()
+{
+    std::strcpy(company, "no name");
+    shares = 0;
+    share_val = 0;
+    total_val = 0;
+}
 
 Stock::Stock(const char * co, int n, double pr)
 {
@@ -106,7 +115,8 @@ int main(int argc, char const *argv[])
 {
     using std::cout;
     using std::ios_base;
-    Stock stock1 = Stock("NanoSmart");
+    Stock stock1;
+    stock1.show();
     stock1.acquire("NanoSmart", 20, 12.50);
     cout.setf(ios_base::fixed);
     cout.precision(2);

@@ -371,3 +371,8 @@ Review: Python Singleton
 整理面试知识清单，有目标，迭代式，烂熟于心式的面向面试式学习
 
 ---
+2019-10-14 | Monday | No.287 | Week.41
+
+整理 Vue nextTicket 内部实现原理，虽然略有跑偏，但是让自己对 async 机制有了更多的细节性把握，也算不亏
+
+---

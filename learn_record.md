@@ -376,3 +376,8 @@ Review: Python Singleton
 整理 Vue nextTicket 内部实现原理，虽然略有跑偏，但是让自己对 async 机制有了更多的细节性把握，也算不亏
 
 ---
+2019-10-27 | Sunday | No.300 | Week.42
+
+学习 Scala 类型系统以及多种样式的 Nothing, such as Null, null, Nil, Nothing, None and Unit
+
+---

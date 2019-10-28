@@ -381,3 +381,7 @@ Review: Python Singleton
 学习 Scala 类型系统以及多种样式的 Nothing, such as Null, null, Nil, Nothing, None and Unit
 
 ---
+2019-10-28 | Monday | No.301 | Week.43
+
+学习 Scala 偏函数与偏应用函数
+---

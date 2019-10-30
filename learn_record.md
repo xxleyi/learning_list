@@ -388,6 +388,7 @@ Review: Python Singleton
 ---
 2019-10-30 | Wednesday | No.303 | Week.43
 
-学习 Scala Option
+1. 学习 Scala Option
+2. 学习 algebraic data types, algebraic structures and type classes
 
 ---

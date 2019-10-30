@@ -384,8 +384,10 @@ Review: Python Singleton
 2019-10-28 | Monday | No.301 | Week.43
 
 学习 Scala 偏函数与偏应用函数
+
 ---
 2019-10-30 | Wednesday | No.303 | Week.43
 
 学习 Scala Option
+
 ---

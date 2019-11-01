@@ -392,3 +392,8 @@ Review: Python Singleton
 2. 学习 algebraic data types, algebraic structures and type classes
 
 ---
+2019-11-01 | Friday | No.305 | Week.43
+
+更新 algebraic structures 基础概念与基础性质
+
+---

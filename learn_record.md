@@ -397,3 +397,8 @@ Review: Python Singleton
 更新 algebraic structures 基础概念与基础性质
 
 ---
+2019-11-02 | Saturday | No.306 | Week.43
+
+更新多个 Scala 基础概念，比如 ADTs, type classes, path-dependent types
+
+---

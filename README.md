@@ -4,7 +4,7 @@
 
 利用 Github 内置 kanban 进行项目管理。
 
-### 目前已有项目：
+### 项目：
 - [Teach Myself Computer Science](https://github.com/xxleyi/learning_list/projects/7)
 - [CS61A(SCIP in Python)](https://github.com/xxleyi/learning_list/projects/1)
 - [Python 积累和进阶](https://github.com/xxleyi/learning_list/projects/11)

@@ -19,7 +19,7 @@ title: pages/react-basics
 ### We can move some boilerplate out of our critical business logic by **deferring execution of a function**.
 ### fiber is a special system which can create and interpret continuations
 ## State Map
-### once we see repeated patterns we can use composition to avoid reimplementing the same pattern over and over again.
+### once we see repeated patterns we can **use composition to avoid reimplementing the same pattern** over and over again.
 ## Memoization Map
 ### Once we want to memoize multiple items in a list memoization becomes much harder. You have to figure out some complex caching algorithm that balances memory usage with frequency.
 ## Algebraic Effects

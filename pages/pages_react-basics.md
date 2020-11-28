@@ -3,6 +3,7 @@ title: pages/react-basics
 ---
 
 ## Transformation
+### The core premise for React is that UIs are simply a projection of data into a different form of data. The same input gives the same output. **A simple pure function.**
 ## Abstraction
 ## Composition
 ## State

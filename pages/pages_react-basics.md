@@ -2,7 +2,7 @@
 title: pages/react-basics
 ---
 
-## transformation
-## abstraction
-## composition
+## Transformation
+## Abstraction
+## Composition
 ##

@@ -11,7 +11,7 @@ title: pages/react-basics
 ## State
 ### **We tend to prefer our data model to be immutable.** We thread functions through that can update state as a single atom at the top.
 ## Memoization
-### Calling the same function over and over again is wasteful if we know that the function is pure.
+### Calling the same function over and over again is **wasteful if we know that the function is pure.**
 ## Lists
 ### Most UIs are some form of lists that then produce multiple different values for each item in the list. This creates a natural hierarchy.
 ### To manage the state for each item in a list we can create a Map that holds the state for a particular item.

@@ -10,6 +10,7 @@ title: pages/react-basics
 ## Memoization
 ## Lists
 ## Continuations
+### We can move some boilerplate out of our critical business logic by deferring execution of a function.
 ## State Map
 ### once we see repeated patterns we can use composition to avoid reimplementing the same pattern over and over again.
 ## Memoization Map

@@ -14,7 +14,7 @@ title: pages/react-basics
 ### Calling the same function over and over again is **wasteful if we know that the function is pure.**
 ## Lists
 ### Most UIs are some form of lists that then produce multiple different values for each item in the list. This creates a natural hierarchy.
-### To manage the state for each item in a list we can create a Map that holds the state for a particular item.
+### To manage the state for each item in a list we can create **a Map that holds the state** for a particular item.
 ## Continuations
 ### We can move some boilerplate out of our critical business logic by deferring execution of a function.
 ## State Map

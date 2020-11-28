@@ -7,6 +7,7 @@ title: pages/react-basics
 ## Abstraction
 ### You can't fit a complex UI in a single function though. It is important that UIs can be abstracted into reusable pieces that don't leak their implementation details. Such as calling one function from another.
 ## Composition
+### To achieve truly reusable features, it is **not enough to simply reuse leaves** and build new containers for them. You also need to be able to build abstractions from the containers that compose other abstractions.
 ## State
 ### We tend to prefer our data model to be immutable. We thread functions through that can update state as a single atom at the top.
 ## Memoization

@@ -1,5 +1,8 @@
 #+TITLE: Nov 28th, 2020
 
 ** 测试一下怎么使用，从今以后，更牛逼的线上笔记就此诞生了？
-*** 非常棒
+***
+```js
+function test(){}
+ ```
 *** ![image](https://user-images.githubusercontent.com/12626454/100494095-2cf52800-3179-11eb-94ea-30975af0c1d2.png)

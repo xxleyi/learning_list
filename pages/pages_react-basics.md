@@ -9,7 +9,7 @@ title: pages/react-basics
 ## Composition
 ### To achieve truly reusable features, it is **not enough to simply reuse leaves** and build new containers for them. You also need to be able to build abstractions from the containers that compose other abstractions.
 ## State
-### We tend to prefer our data model to be immutable. We thread functions through that can update state as a single atom at the top.
+### **We tend to prefer our data model to be immutable.** We thread functions through that can update state as a single atom at the top.
 ## Memoization
 ### Calling the same function over and over again is wasteful if we know that the function is pure.
 ## Lists

@@ -5,6 +5,7 @@ title: pages/react-basics
 ## Transformation
 ### The core premise for React is that UIs are simply a projection of data into a different form of data. The same input gives the same output. **A simple pure function.**
 ## Abstraction
+### You can't fit a complex UI in a single function though. It is important that UIs can be abstracted into reusable pieces that don't leak their implementation details. Such as calling one function from another.
 ## Composition
 ## State
 ### We tend to prefer our data model to be immutable. We thread functions through that can update state as a single atom at the top.

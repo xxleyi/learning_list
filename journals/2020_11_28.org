@@ -2,6 +2,9 @@
 
 ** 测试一下怎么使用，从今以后，更牛逼的线上笔记就此诞生了？
 ***
+:PROPERTIES:
+:background_color: rgb(73, 118, 123)
+:END:
 ```js
 function test()
 ```

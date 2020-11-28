@@ -16,7 +16,8 @@ title: pages/react-basics
 ### Most UIs are some form of lists that then produce multiple different values for each item in the list. This creates a natural hierarchy.
 ### To manage the state for each item in a list we can create **a Map that holds the state** for a particular item.
 ## Continuations
-### We can move some boilerplate out of our critical business logic by deferring execution of a function.
+### We can move some boilerplate out of our critical business logic by **deferring execution of a function**.
+### fiber is a special system which can create and interpret continuations
 ## State Map
 ### once we see repeated patterns we can use composition to avoid reimplementing the same pattern over and over again.
 ## Memoization Map
